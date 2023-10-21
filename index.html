@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--=== Default tags ===-->
+    <meta charset="UTF-8">
+    <title>Newtown - Vanilla Minecraft Smp</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/logo.webp" type="image/x-icon">
+
+    <!--=== Social profile ===-->
+    <meta property="og:title" content="Minecket - Home">
+    <meta property="og:description" content="Smp vanilla với 1 vài plugins như Gsit, skin, tpa,... VÀ KHÔNG KEEPINVENTORY">
+    <meta property="og:image" content="https://i.imgur.com/oHEiAcY.png">
+
+    <!--== SEO ===-->
+    <meta name="description" content="1 Minecraft smp sinh tồn đơn giản, bạn có thể đi giết người, cướp đồ, phá base, không keepinventory,.... (server đã thay admin nên không lo lạm quyền)">
+    <meta name="keywords" content="NewtownSMP">
+    <link rel="canonical" href="../HTML/Index.html"> <!--=== Enter your URL here ===-->
+</head>
+
+<!--=== Style ===-->
+<style>
+    #loading {
+     position: fixed;
+     z-index: 9999;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    
+    .spinner {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     border: 5px solid #ccc;
+     border-top-color: #333;
+     animation: spin 1s ease-in-out infinite
+    }
+    
+    @keyframes spin {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(360deg);}
+    }
+
+</style>
+
+<!--=== Spinner ===-->
+<body>
+    <div id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <div id="error-message">
+        <h1>Reload lại trang!</h1>
+    </div>
+
+    <script src="JS/Preview.js"></script>
+</body>
+</html>
